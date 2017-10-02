@@ -1,0 +1,23 @@
+hr{width:90%;}
+footer{padding: 10px 0px;font-family: 'Raleway', sans-serif;}
+footer p{color: gray;font-size: 12px; }
+footer p a{color: gray;text-decoration: none;transition: all 0.5s;}
+footer p a:hover{color:#FFD800;text-decoration: none;}
+footer ul.flinks{margin-bottom: 2px;}
+footer ul.flinks li a{color:gray;font-size: 12px;}
+footer li{padding: 5px;}
+footer li:not(:first-child):before {
+    content: " | ";
+    color: gray;padding-top:15px;padding-bottom: 15px;padding-right:6px;padding-left:6px;
+   
+}
+footer li:after {
+   
+   padding: 40px;	
+}
+footer ul.flinks li a:hover{text-decoration: none;color:#FFD800;transition: all 0.5s;}
+footer ul.list-inline>li {
+    
+    padding-right: 0px;
+    padding-left: 0px;
+}
